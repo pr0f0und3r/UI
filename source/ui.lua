@@ -1,6 +1,6 @@
-local Show_Button = false
-local Button_Icon = ""
-local Show_Search = true
+local Show_Button = true
+local Button_Icon = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=88094351123727"
+local Show_Search = false
 
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
