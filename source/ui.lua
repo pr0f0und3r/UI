@@ -40,7 +40,7 @@ local Themes = {
 		"Dark",
 		"Darker", 
 		"AMOLED",
-		"Eclipse"
+		"Eclipse",
 		"Light",
 		"Balloon",
 		"SoftCream",
