@@ -1,14 +1,6 @@
---[[
-
-Owned By Lunar Hub and Havoc
-
-]]
-
--------------------------
 local Show_Button = false
 local Button_Icon = ""
 local Show_Search = true
--------------------------
 
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
@@ -48,6 +40,7 @@ local Themes = {
 		"Dark",
 		"Darker", 
 		"AMOLED",
+		"Eclipse"
 		"Light",
 		"Balloon",
 		"SoftCream",
@@ -164,6 +157,47 @@ local Themes = {
 		SubText = Color3.fromRGB(170, 170, 170),
 		Hover = Color3.fromRGB(40, 40, 40),
 		HoverChange = 0.04
+	},
+	Eclipse = {
+    Name = "Eclipse",
+    Accent = Color3.fromRGB(0, 120, 255),
+    AcrylicMain = Color3.fromRGB(20, 30, 60),
+    AcrylicBorder = Color3.fromRGB(10, 20, 40),
+    AcrylicGradient = ColorSequence.new(
+        Color3.fromRGB(25, 40, 70), 
+        Color3.fromRGB(10, 15, 30)
+    ),
+    AcrylicNoise = 0.96,
+    TitleBarLine = Color3.fromRGB(50, 60, 90),
+    Tab = Color3.fromRGB(15, 25, 50),
+    Element = Color3.fromRGB(200, 220, 255),
+    ElementBorder = Color3.fromRGB(80, 100, 150),
+    InElementBorder = Color3.fromRGB(60, 80, 120),
+    ElementTransparency = 0.65,
+    ToggleSlider = Color3.fromRGB(30, 30, 50),
+    ToggleToggled = Color3.fromRGB(0, 120, 255),
+    SliderRail = Color3.fromRGB(30, 30, 50),
+    DropdownFrame = Color3.fromRGB(25, 35, 60),
+    DropdownHolder = Color3.fromRGB(40, 50, 80),
+    DropdownBorder = Color3.fromRGB(20, 30, 50),
+    DropdownOption = Color3.fromRGB(50, 70, 120),
+    Keybind = Color3.fromRGB(30, 40, 70),
+    Input = Color3.fromRGB(40, 60, 90),
+    InputFocused = Color3.fromRGB(0, 80, 200),
+    InputIndicator = Color3.fromRGB(20, 40, 70),
+    InputIndicatorFocus = Color3.fromRGB(0, 120, 255),
+    Dialog = Color3.fromRGB(30, 40, 60),
+    DialogHolder = Color3.fromRGB(40, 50, 80),
+    DialogHolderLine = Color3.fromRGB(60, 80, 120),
+    DialogButton = Color3.fromRGB(0, 120, 255),
+    DialogButtonBorder = Color3.fromRGB(20, 40, 70),
+    DialogBorder = Color3.fromRGB(10, 20, 40),
+    DialogInput = Color3.fromRGB(25, 35, 60),
+    DialogInputLine = Color3.fromRGB(50, 70, 120),
+    Text = Color3.fromRGB(220, 240, 255),
+    SubText = Color3.fromRGB(180, 200, 230),
+    Hover = Color3.fromRGB(40, 60, 100),
+    HoverChange = 0.16,
 	},
 	Light = {
 		Name = "Light",
