@@ -70,7 +70,7 @@ ImageButton.BackgroundColor3 = _G.Dark;
 ImageButton.ImageColor3 = Color3.fromRGB(250, 250, 250);
 ImageButton.ImageTransparency = 0;
 ImageButton.BackgroundTransparency = 0;
-ImageButton.Image = "rbxassetid://124337858312784";
+ImageButton.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=130257028806819";
 ImageButton.AutoButtonColor = false;
 MakeDraggable(ImageButton, OutlineButton);
 CreateRounded(ImageButton, 10);
@@ -134,7 +134,7 @@ function Update:Notify(desc)
 	Title.Position = UDim2.new(0, 55, 0, 14);
 	Title.Size = UDim2.new(0, 10, 0, 20);
 	Title.Font = Enum.Font.GothamBold;
-	Title.Text = "Melody";
+	Title.Text = "Eclipse Hub";
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255);
 	Title.TextSize = 16;
 	Title.TextXAlignment = Enum.TextXAlignment.Left;
@@ -184,7 +184,7 @@ function Update:StartLoad()
 	MainLoaderFrame.BorderSizePixel = 0;
 	local TitleLoader = Instance.new("TextLabel");
 	TitleLoader.Parent = MainLoaderFrame;
-	TitleLoader.Text = "Melody";
+	TitleLoader.Text = "Eclipse Hub";
 	TitleLoader.Font = Enum.Font.FredokaOne;
 	TitleLoader.TextSize = 50;
 	TitleLoader.TextColor3 = Color3.fromRGB(255, 255, 255);
@@ -378,7 +378,7 @@ function Update:Window(Config)
 	NameHub.AnchorPoint = Vector2.new(0, 0.5);
 	NameHub.Size = UDim2.new(0, 1, 0, 25);
 	NameHub.Font = Enum.Font.GothamBold;
-	NameHub.Text = "Melody";
+	NameHub.Text = "Eclipse Hub";
 	NameHub.TextSize = 20;
 	NameHub.TextColor3 = Color3.fromRGB(255, 255, 255);
 	NameHub.TextXAlignment = Enum.TextXAlignment.Left;
