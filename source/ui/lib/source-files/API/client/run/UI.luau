@@ -2,7 +2,7 @@ if (game:GetService("CoreGui")):FindFirstChild("LUNAR") and (game:GetService("Co
 	(game:GetService("CoreGui")).LUNAR:Destroy();
 	(game:GetService("CoreGui")).ScreenGui:Destroy();
 end;
-_G.Primary = Color3.fromRGB(100, 100, 100);
+_G.Primary = Color3.fromRGB(15, 26, 211);
 _G.Dark = Color3.fromRGB(22, 22, 26);
 _G.Third = Color3.fromRGB(255, 0, 0);
 function CreateRounded(Parent, Size)
@@ -127,7 +127,7 @@ function Update:Notify(desc)
 	Image.BackgroundTransparency = 1;
 	Image.Position = UDim2.new(0, 8, 0, 8);
 	Image.Size = UDim2.new(0, 45, 0, 45);
-	Image.Image = "rbxassetid://105059922903197";
+	Image.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=118872959292158";
 	Title.Parent = Frame;
 	Title.BackgroundColor3 = _G.Primary;
 	Title.BackgroundTransparency = 1;
@@ -206,7 +206,7 @@ function Update:StartLoad()
 	DescriptionLoader.TextTransparency = 0;
 	local LoadingBarBackground = Instance.new("Frame");
 	LoadingBarBackground.Parent = MainLoaderFrame;
-	LoadingBarBackground.BackgroundColor3 = Color3.fromRGB(50, 50, 50);
+	LoadingBarBackground.BackgroundColor3 = Color3.fromRGB(1, 34, 75);
 	LoadingBarBackground.AnchorPoint = Vector2.new(0.5, 0.5);
 	LoadingBarBackground.Position = UDim2.new(0.5, 0, 0.7, 0);
 	LoadingBarBackground.Size = UDim2.new(0.7, 0, 0.05, 0);
@@ -339,7 +339,7 @@ function Update:Window(Config)
 	Main.Parent = OutlineMain;
 	Main.ClipsDescendants = true;
 	Main.AnchorPoint = Vector2.new(0.5, 0.5);
-	Main.BackgroundColor3 = Color3.fromRGB(24, 24, 26);
+	Main.BackgroundColor3 = Color3.fromRGB(52, 54, 112);
 	Main.BackgroundTransparency = 0;
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0);
 	Main.Size = WindowConfig.Size;
@@ -364,7 +364,7 @@ function Update:Window(Config)
 	local Top = Instance.new("Frame");
 	Top.Name = "Top";
 	Top.Parent = Main;
-	Top.BackgroundColor3 = Color3.fromRGB(10, 10, 10);
+	Top.BackgroundColor3 = Color3.fromRGB(15, 26, 211);
 	Top.Size = UDim2.new(1, 0, 0, 40);
 	Top.BackgroundTransparency = 0;
 	CreateRounded(Top, 5);
